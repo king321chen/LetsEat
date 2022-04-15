@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC2C6FAF2801788F00A34FA0 /* ExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C6FAE2801788F00A34FA0 /* ExploreCell.swift */; };
+		EC2C6FB428028B5900A34FA0 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C6FB328028B5900A34FA0 /* LocationViewController.swift */; };
+		EC2C6FB8280290A300A34FA0 /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2C6FB7280290A300A34FA0 /* LocationDataManager.swift */; };
+		EC2C6FBA280294B300A34FA0 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC2C6FB9280294B300A34FA0 /* Locations.plist */; };
+		EC3E56872809691F00751BA2 /* MapLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC3E56862809691F00751BA2 /* MapLocations.plist */; };
+		EC3E56892809696B00751BA2 /* RestaurantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E56882809696B00751BA2 /* RestaurantItem.swift */; };
+		EC3E568B28096D9100751BA2 /* MapDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3E568A28096D9100751BA2 /* MapDataManager.swift */; };
+		EC4A0BE027E5BB8C000D0F4B /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A0BDF27E5BB8C000D0F4B /* RestaurantListViewController.swift */; };
+		EC4DF1CF27FC16C0001B8D7D /* ExploreData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC4DF1CE27FC16C0001B8D7D /* ExploreData.plist */; };
+		EC4DF1D127FC175A001B8D7D /* ExploreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4DF1D027FC175A001B8D7D /* ExploreItem.swift */; };
+		EC4DF1D327FC1E08001B8D7D /* ExploreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4DF1D227FC1E08001B8D7D /* ExploreDataManager.swift */; };
 		ECC8C65527E49A1200B59B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8C65427E49A1200B59B70 /* AppDelegate.swift */; };
 		ECC8C65727E49A1200B59B70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8C65627E49A1200B59B70 /* SceneDelegate.swift */; };
-		ECC8C65927E49A1200B59B70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8C65827E49A1200B59B70 /* ViewController.swift */; };
 		ECC8C65C27E49A1200B59B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC8C65A27E49A1200B59B70 /* Main.storyboard */; };
-		ECC8C65E27E49A1D00B59B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC8C65D27E49A1D00B59B70 /* Assets.xcassets */; };
 		ECC8C66127E49A1D00B59B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC8C65F27E49A1D00B59B70 /* LaunchScreen.storyboard */; };
+		ECC8C66927E4A61100B59B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC8C66827E4A61100B59B70 /* Assets.xcassets */; };
+		ECC8C66C27E4B0A700B59B70 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8C66B27E4B0A700B59B70 /* ExploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC2C6FAE2801788F00A34FA0 /* ExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCell.swift; sourceTree = "<group>"; };
+		EC2C6FB328028B5900A34FA0 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		EC2C6FB7280290A300A34FA0 /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
+		EC2C6FB9280294B300A34FA0 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
+		EC3E56862809691F00751BA2 /* MapLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MapLocations.plist; sourceTree = "<group>"; };
+		EC3E56882809696B00751BA2 /* RestaurantItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantItem.swift; sourceTree = "<group>"; };
+		EC3E568A28096D9100751BA2 /* MapDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataManager.swift; sourceTree = "<group>"; };
+		EC4A0BDF27E5BB8C000D0F4B /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		EC4DF1CE27FC16C0001B8D7D /* ExploreData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExploreData.plist; sourceTree = "<group>"; };
+		EC4DF1D027FC175A001B8D7D /* ExploreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreItem.swift; sourceTree = "<group>"; };
+		EC4DF1D227FC1E08001B8D7D /* ExploreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreDataManager.swift; sourceTree = "<group>"; };
 		ECC8C65127E49A1200B59B70 /* LetsEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC8C65427E49A1200B59B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC8C65627E49A1200B59B70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECC8C65827E49A1200B59B70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECC8C65B27E49A1200B59B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECC8C65D27E49A1D00B59B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC8C66027E49A1D00B59B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECC8C66227E49A1D00B59B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC8C66827E4A61100B59B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC8C66B27E4B0A700B59B70 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC2C6FAB2801783200A34FA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC2C6FAE2801788F00A34FA0 /* ExploreCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC2C6FB028028AFB00A34FA0 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				EC2C6FB228028B1600A34FA0 /* Model */,
+				EC2C6FB128028B0F00A34FA0 /* View */,
+				EC2C6FB328028B5900A34FA0 /* LocationViewController.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		EC2C6FB128028B0F00A34FA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC2C6FB228028B1600A34FA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC2C6FB9280294B300A34FA0 /* Locations.plist */,
+				EC2C6FB7280290A300A34FA0 /* LocationDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC3E56842809687B00751BA2 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				EC3E56852809688800751BA2 /* Model */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		EC3E56852809688800751BA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC3E56862809691F00751BA2 /* MapLocations.plist */,
+				EC3E56882809696B00751BA2 /* RestaurantItem.swift */,
+				EC3E568A28096D9100751BA2 /* MapDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC4A0BDE27E5BB5D000D0F4B /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				EC4A0BDF27E5BB8C000D0F4B /* RestaurantListViewController.swift */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		EC4DF1CD27FC1693001B8D7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC4DF1CE27FC16C0001B8D7D /* ExploreData.plist */,
+				EC4DF1D027FC175A001B8D7D /* ExploreItem.swift */,
+				EC4DF1D227FC1E08001B8D7D /* ExploreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ECC8C64827E49A1200B59B70 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +148,28 @@
 		ECC8C65327E49A1200B59B70 /* LetsEat */ = {
 			isa = PBXGroup;
 			children = (
+				EC3E56842809687B00751BA2 /* Map */,
+				EC2C6FB028028AFB00A34FA0 /* Location */,
+				EC4DF1CD27FC1693001B8D7D /* Model */,
+				EC4A0BDE27E5BB5D000D0F4B /* Restaurants */,
+				ECC8C66A27E4B07900B59B70 /* Explore */,
 				ECC8C65427E49A1200B59B70 /* AppDelegate.swift */,
 				ECC8C65627E49A1200B59B70 /* SceneDelegate.swift */,
-				ECC8C65827E49A1200B59B70 /* ViewController.swift */,
 				ECC8C65A27E49A1200B59B70 /* Main.storyboard */,
-				ECC8C65D27E49A1D00B59B70 /* Assets.xcassets */,
+				ECC8C66827E4A61100B59B70 /* Assets.xcassets */,
 				ECC8C65F27E49A1D00B59B70 /* LaunchScreen.storyboard */,
 				ECC8C66227E49A1D00B59B70 /* Info.plist */,
 			);
 			path = LetsEat;
+			sourceTree = "<group>";
+		};
+		ECC8C66A27E4B07900B59B70 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				EC2C6FAB2801783200A34FA0 /* View */,
+				ECC8C66B27E4B0A700B59B70 /* ExploreViewController.swift */,
+			);
+			path = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +230,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4DF1CF27FC16C0001B8D7D /* ExploreData.plist in Resources */,
 				ECC8C66127E49A1D00B59B70 /* LaunchScreen.storyboard in Resources */,
-				ECC8C65E27E49A1D00B59B70 /* Assets.xcassets in Resources */,
+				ECC8C66927E4A61100B59B70 /* Assets.xcassets in Resources */,
+				EC2C6FBA280294B300A34FA0 /* Locations.plist in Resources */,
+				EC3E56872809691F00751BA2 /* MapLocations.plist in Resources */,
 				ECC8C65C27E49A1200B59B70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +246,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC8C65927E49A1200B59B70 /* ViewController.swift in Sources */,
+				EC4DF1D127FC175A001B8D7D /* ExploreItem.swift in Sources */,
+				EC3E568B28096D9100751BA2 /* MapDataManager.swift in Sources */,
 				ECC8C65527E49A1200B59B70 /* AppDelegate.swift in Sources */,
+				EC4A0BE027E5BB8C000D0F4B /* RestaurantListViewController.swift in Sources */,
 				ECC8C65727E49A1200B59B70 /* SceneDelegate.swift in Sources */,
+				ECC8C66C27E4B0A700B59B70 /* ExploreViewController.swift in Sources */,
+				EC4DF1D327FC1E08001B8D7D /* ExploreDataManager.swift in Sources */,
+				EC2C6FAF2801788F00A34FA0 /* ExploreCell.swift in Sources */,
+				EC3E56892809696B00751BA2 /* RestaurantItem.swift in Sources */,
+				EC2C6FB8280290A300A34FA0 /* LocationDataManager.swift in Sources */,
+				EC2C6FB428028B5900A34FA0 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
